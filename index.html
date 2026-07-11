@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Design System Reference Sheet — The Story House</title>
+<meta name="description" content="Living styleguide for The Story House, a premium bookstore website.">
+
+<!-- Fonts: Cormorant Garamond (display) + Inter (body) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main class="sheet">
+
+  <!-- ============ MASTHEAD ============ -->
+  <header class="masthead">
+    <h1>Design System Reference Sheet</h1>
+    <p class="subtitle">The Story House — Premium Bookstore Website</p>
+    <hr class="rule-gold">
+  </header>
+
+  <!-- ============ TWO-COLUMN TOP ROW: 1 & 2 ============ -->
+  <div class="split-top">
+
+    <!-- 1. BRAND MOOD -->
+    <section class="section" aria-labelledby="s1">
+      <h2 class="section-title" id="s1"><span class="num">1.</span> Brand Mood / Visual Direction</h2>
+      <div class="mood-row">
+        <div class="mood-item">
+          <span class="ico"><!--feather--><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"/><line x1="16" y1="8" x2="2" y2="22"/><line x1="17.5" y1="15" x2="9" y2="15"/></svg></span>
+          <span>Calm</span>
+        </div>
+        <div class="mood-item">
+          <span class="ico"><!--book--><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg></span>
+          <span>Editorial</span>
+        </div>
+        <div class="mood-item">
+          <span class="ico"><!--sun--><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.2" y1="4.2" x2="5.6" y2="5.6"/><line x1="18.4" y1="18.4" x2="19.8" y2="19.8"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.2" y1="19.8" x2="5.6" y2="18.4"/><line x1="18.4" y1="5.6" x2="19.8" y2="4.2"/></svg></span>
+          <span>Warm</span>
+        </div>
+        <div class="mood-item">
+          <span class="ico"><!--star--><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></span>
+          <span>Curated</span>
+        </div>
+        <div class="mood-item">
+          <span class="ico"><!--hourglass--><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2h12M6 22h12M6 2c0 4 3 6 6 8 3-2 6-4 6-8M6 22c0-4 3-6 6-8 3 2 6 4 6 8"/></svg></span>
+          <span>Timeless</span>
+        </div>
+        <div class="mood-item">
+          <span class="ico"><!--shield-check--><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg></span>
+          <span>Trustworthy</span>
+        </div>
+      </div>
+      <div class="mood-callout">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+        <span>Quiet premium reading room translated into ecommerce.</span>
+      </div>
+    </section>
+
+    <!-- 2. COLOR PALETTE -->
+    <section class="section" aria-labelledby="s2">
+      <h2 class="section-title" id="s2"><span class="num">2.</span> Color Palette</h2>
+      <div class="swatch-grid">
+        <div class="swatch"><div class="chip" style="background:#173C34"></div><div class="name">Primary / Library Green</div><div class="hex">#173C34</div></div>
+        <div class="swatch"><div class="chip" style="background:#102B25"></div><div class="name">Primary Hover</div><div class="hex">#102B25</div></div>
+        <div class="swatch"><div class="chip" style="background:#6B4F3A"></div><div class="name">Secondary / Espresso</div><div class="hex">#6B4F3A</div></div>
+        <div class="swatch"><div class="chip" style="background:#B78A3B"></div><div class="name">Accent / Antique Gold</div><div class="hex">#B78A3B</div></div>
+        <div class="swatch"><div class="chip" style="background:#FBF7EF"></div><div class="name">Background / Warm Paper</div><div class="hex">#FBF7EF</div></div>
+        <div class="swatch"><div class="chip" style="background:#FDF9F1"></div><div class="name">Surface / Ivory</div><div class="hex">#FDF9F1</div></div>
+        <div class="swatch"><div class="chip" style="background:#FFFFFF"></div><div class="name">Card / White</div><div class="hex">#FFFFFF</div></div>
+        <div class="swatch"><div class="chip" style="background:#E4D8C6"></div><div class="name">Border</div><div class="hex">#E4D8C6</div></div>
+        <div class="swatch"><div class="chip" style="background:#1F2A24"></div><div class="name">Text Primary / Ink</div><div class="hex">#1F2A24</div></div>
+        <div class="swatch"><div class="chip" style="background:#5F6B63"></div><div class="name">Text Secondary</div><div class="hex">#5F6B63</div></div>
+      </div>
+    </section>
+  </div>
+
+  <!-- ============ 3. TYPOGRAPHY ============ -->
+  <section class="section" aria-labelledby="s3">
+    <h2 class="section-title" id="s3"><span class="num">3.</span> Typography</h2>
+    <div class="grid-2">
+      <!-- Display column -->
+      <div class="type-col">
+        <div class="type-row">
+          <div class="type-label"><b>Display / Editorial Heading</b> — Cormorant Garamond</div>
+          <div class="type-size">72px</div>
+        </div>
+        <p class="spec display">Curated Books for Thoughtful Readers</p>
+
+        <div class="type-row" style="margin-top:24px">
+          <div class="type-label"><b>H1 / Page Heading</b> — Cormorant Garamond</div>
+          <div class="type-size">48px</div>
+        </div>
+        <p class="spec h1">Elegant discovery for readers, students, and gift buyers.</p>
+
+        <div class="type-row">
+          <div class="type-label"><b>H2 / Section Heading</b> — Cormorant Garamond</div>
+          <div class="type-size">36px</div>
+        </div>
+        <p class="spec h2">Handpicked stories. Timeless ideas.</p>
+
+        <div class="type-row">
+          <div class="type-label"><b>H3 / Subheading</b> — Cormorant Garamond</div>
+          <div class="type-size">28px</div>
+        </div>
+        <p class="spec h3">Stories that inspire and endure.</p>
+      </div>
+
+      <!-- Body column -->
+      <div class="type-col">
+        <div class="type-row">
+          <div class="type-label"><b>Body / UI Font</b><br>Inter</div>
+          <div class="type-size">&nbsp;</div>
+        </div>
+        <div class="type-row">
+          <div><div class="type-label"><b>Body / Regular</b> — Inter Regular</div><p class="body-spec regular">The quick brown fox jumps over the lazy dog</p></div>
+          <div class="type-size" style="font-size:16px;color:var(--text-secondary);font-family:var(--font-body)">16px</div>
+        </div>
+        <div class="type-row">
+          <div><div class="type-label"><b>Body / Medium</b> — Inter Medium</div><p class="body-spec medium">The quick brown fox jumps over the lazy dog</p></div>
+          <div class="type-size" style="font-size:16px;color:var(--text-secondary);font-family:var(--font-body)">16px</div>
+        </div>
+        <div class="type-row">
+          <div><div class="type-label"><b>Caption / Small</b> — Inter Regular</div><p class="body-spec caption">The quick brown fox jumps over the lazy dog</p></div>
+          <div class="type-size" style="font-size:16px;color:var(--text-secondary);font-family:var(--font-body)">13px</div>
+        </div>
+        <div class="type-row">
+          <div><div class="type-label"><b>Button / Label</b> — Inter Medium (Semibold)</div><p class="body-spec label">The quick brown fox jumps over the lazy dog</p></div>
+          <div class="type-size" style="font-size:16px;color:var(--text-secondary);font-family:var(--font-body)">15px</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 4. BUTTONS ============ -->
+  <section class="section" aria-labelledby="s4">
+    <h2 class="section-title" id="s4"><span class="num">4.</span> Buttons &amp; Interactive Elements</h2>
+    <div class="grid-2">
+      <div>
+        <div class="btn-row">
+          <button class="btn btn-primary">Shop Books</button>
+          <div class="btn-note"><b>Primary Button</b>Deep green with ivory text.</div>
+        </div>
+        <div class="btn-row">
+          <button class="btn btn-secondary">Explore New Arrivals</button>
+          <div class="btn-note"><b>Secondary Button</b>Ivory with border.</div>
+        </div>
+        <div class="btn-row">
+          <button class="btn-tertiary">Browse Bestsellers
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </button>
+          <div class="btn-note"><b>Tertiary Link</b>Text link with arrow.</div>
+        </div>
+      </div>
+      <div>
+        <p class="subhead">Chips / Tags</p>
+        <div class="chip-row" role="group" aria-label="Filter chips">
+          <button class="chip-tag" aria-pressed="false">Fiction</button>
+          <button class="chip-tag" aria-pressed="false">History</button>
+          <button class="chip-tag active" aria-pressed="true">Self-Help</button>
+        </div>
+        <p class="btn-note" style="margin-top:16px"><b>Chips / Tags</b>Rounded filter chips. Click to toggle.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TWO-COLUMN: 5 & 6 ============ -->
+  <div class="split-top">
+
+    <!-- 5. FORM ELEMENTS -->
+    <section class="section" aria-labelledby="s5">
+      <h2 class="section-title" id="s5"><span class="num">5.</span> Form Elements</h2>
+
+      <div class="field">
+        <div class="input-wrap has-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <input class="input" type="search" placeholder="Search by title, author, ISBN">
+        </div>
+      </div>
+
+      <div class="field">
+        <input class="input" type="email" placeholder="Your email address">
+      </div>
+
+      <div class="field">
+        <div class="select-wrap">
+          <select class="select">
+            <option>Select a category</option>
+            <option>Fiction</option>
+            <option>History</option>
+            <option>Self-Help</option>
+            <option>Modern Classics</option>
+          </select>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </div>
+      </div>
+
+      <div class="control-row">
+        <label class="check">
+          <input type="checkbox" checked>
+          <span class="box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>
+          <span>Remember me</span>
+        </label>
+        <label class="radio">
+          <input type="radio" name="opt" checked>
+          <span class="dot"></span>
+          <span>Option one</span>
+        </label>
+        <label class="radio">
+          <input type="radio" name="opt">
+          <span class="dot"></span>
+          <span>Option two</span>
+        </label>
+        <label class="toggle">
+          <input type="checkbox" checked>
+          <span class="track"></span>
+        </label>
+      </div>
+
+      <p class="form-note">All fields use 12–16px radius, soft borders, and calm spacing.</p>
+    </section>
+
+    <!-- 6. PRODUCT CARD / UI COMPONENTS -->
+    <section class="section" aria-labelledby="s6">
+      <h2 class="section-title" id="s6"><span class="num">6.</span> Product Card / UI Components</h2>
+      <div class="product-layout">
+        <!-- Product card -->
+        <div class="product-card">
+          <div class="cover-wrap">
+            <img src="assets/book-covers/the-invisible-library.jpg" alt="Cover of The Invisible Library by Genevieve Cogman">
+            <button class="wishlist-btn" aria-label="Add to wishlist" title="Add to wishlist">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z"/></svg>
+            </button>
+          </div>
+          <h4>The Invisible Library</h4>
+          <p class="author">Genevieve Cogman</p>
+          <span class="badge-instock">In Stock</span>
+          <div class="price">$18.99</div>
+          <div class="stars" aria-label="Rated 4.8 out of 5">
+            <span>★★★★★</span><span class="count">4.8 (124)</span>
+          </div>
+        </div>
+
+        <!-- Right column: badges, accordion, tabs, breadcrumb -->
+        <div>
+          <p class="subhead">Badge Chips</p>
+          <div class="badge-row">
+            <span class="badge green">In Stock</span>
+            <span class="badge gold">New Arrival</span>
+            <span class="badge espresso">Bestseller</span>
+          </div>
+
+          <p class="subhead">Accordion / FAQ</p>
+          <div class="accordion">
+            <div class="acc-item">
+              <button class="acc-trigger" aria-expanded="false"><span>What is your return policy?</span><span class="sign">+</span></button>
+              <div class="acc-panel"><div class="acc-panel-inner">Returns are accepted within 30 days of delivery for a full refund, provided the book is in its original condition.</div></div>
+            </div>
+            <div class="acc-item open">
+              <button class="acc-trigger" aria-expanded="true"><span>Do you ship internationally?</span><span class="sign">+</span></button>
+              <div class="acc-panel"><div class="acc-panel-inner">Yes, we ship to most countries worldwide. Shipping charges and delivery times vary by location.</div></div>
+            </div>
+          </div>
+
+          <p class="subhead">Tab Example</p>
+          <div class="tabs" role="tablist">
+            <button class="tab active" role="tab" aria-selected="true" data-tab="desc">Description</button>
+            <button class="tab" role="tab" aria-selected="false" data-tab="details">Details</button>
+            <button class="tab" role="tab" aria-selected="false" data-tab="reviews">Reviews</button>
+          </div>
+          <div class="tab-panel active" data-panel="desc">A mystical adventure through hidden libraries, forgotten books, and the power of knowledge.</div>
+          <div class="tab-panel" data-panel="details">Paperback · 352 pages · Modern Classics · ISBN 978-0-000-00000-0.</div>
+          <div class="tab-panel" data-panel="reviews">“Utterly enchanting — a love letter to books.” Rated 4.8 out of 5 across 124 reviews.</div>
+
+          <div class="breadcrumb-wrap">
+            <span class="breadcrumb-label">Breadcrumb</span>
+            <nav class="breadcrumb" aria-label="Breadcrumb">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+              <a href="#">Home</a><span class="sep">/</span>
+              <a href="#">Categories</a><span class="sep">/</span>
+              <span class="current">Modern Classics</span>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- ============ 7. SPACING / RADIUS / SHADOWS ============ -->
+  <section class="section" aria-labelledby="s7">
+    <h2 class="section-title" id="s7"><span class="num">7.</span> Spacing / Radius / Shadows</h2>
+    <div class="scales">
+      <!-- Spacing -->
+      <div>
+        <p class="scale-title">Spacing Scale (px)</p>
+        <div class="space-samples">
+          <div><div class="s" style="width:12px;height:12px"></div><span>4</span></div>
+          <div><div class="s" style="width:18px;height:18px"></div><span>8</span></div>
+          <div><div class="s" style="width:26px;height:26px"></div><span>16</span></div>
+          <div><div class="s" style="width:36px;height:36px"></div><span>24</span></div>
+          <div><div class="s" style="width:40px;height:40px"></div><span>26</span></div>
+          <div><div class="s" style="width:48px;height:48px"></div><span>32</span></div>
+        </div>
+      </div>
+      <!-- Radius -->
+      <div>
+        <p class="scale-title">Radius Scale</p>
+        <div class="radius-samples">
+          <div><div class="r" style="border-radius:8px"></div><span>8px</span></div>
+          <div><div class="r" style="border-radius:12px"></div><span>12px</span></div>
+          <div><div class="r" style="border-radius:16px"></div><span>16px</span></div>
+        </div>
+      </div>
+      <!-- Shadows -->
+      <div>
+        <p class="scale-title">Shadow Scale</p>
+        <div class="shadow-samples">
+          <div class="sh" style="box-shadow:var(--shadow-subtle)"></div>
+          <div class="sh" style="box-shadow:var(--shadow-medium)"></div>
+          <div class="sh" style="box-shadow:var(--shadow-modal)"></div>
+        </div>
+        <div class="shadow-list">
+          <b>Subtle</b>0 2px 8px rgba(0,0,0,0.04)
+          <b>Medium</b>0 8px 24px rgba(0,0,0,0.08)
+          <b>Modal</b>0 16px 48px rgba(0,0,0,0.15)
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TWO-COLUMN: 8 & 9 ============ -->
+  <div class="split-top">
+    <!-- 8. ICONOGRAPHY -->
+    <section class="section" aria-labelledby="s8">
+      <h2 class="section-title" id="s8"><span class="num">8.</span> Iconography Preview</h2>
+      <div class="icon-row">
+        <div class="icon-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg><span>Search</span></div>
+        <div class="icon-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg><span>Book</span></div>
+        <div class="icon-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg><span>Bookmark</span></div>
+        <div class="icon-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg><span>Cart</span></div>
+        <div class="icon-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z"/></svg><span>Wishlist</span></div>
+        <div class="icon-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg><span>Account</span></div>
+        <div class="icon-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 12 20 22 4 22 4 12"/><rect x="2" y="7" width="20" height="5"/><line x1="12" y1="22" x2="12" y2="7"/><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"/><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/></svg><span>Gift</span></div>
+        <div class="icon-cell"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg><span>Delivery</span></div>
+      </div>
+      <p class="icon-note">Outline style, 2px stroke, rounded corners. Consistent, calm, and friendly.</p>
+      <div class="icon-art">
+        <div class="art" role="img" aria-label="Stacked books and a vase illustration"></div>
+      </div>
+    </section>
+
+    <!-- 9. ACCESSIBILITY -->
+    <section class="section" aria-labelledby="s9">
+      <h2 class="section-title" id="s9"><span class="num">9.</span> Accessibility / Usage Notes</h2>
+      <ul class="a11y-list">
+        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="8 12 11 15 16 9"/></svg>High contrast, calm premium interface.</li>
+        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="8 12 11 15 16 9"/></svg>Readable typography for ecommerce and editorial content.</li>
+        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="8 12 11 15 16 9"/></svg>Designed for clarity, trust, and discovery.</li>
+        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="8 12 11 15 16 9"/></svg>Use motion subtly and functionally.</li>
+      </ul>
+    </section>
+  </div>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <span class="wordmark">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+      <span>The Story House</span>
+    </span>
+    <span>Premium Books. Thoughtful Readers.</span>
+    <span>Designed for stories that last.</span>
+  </footer>
+
+</main>
+<script src="script.js"></script>
+</body>
+</html>

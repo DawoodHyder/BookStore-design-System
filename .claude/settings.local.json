@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -m http.server 8099)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8099/index.html)",
+      "Bash(/c/Python312/python -m http.server 8099)",
+      "Read(//tmp/**)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://127.0.0.1:8099/index.html)",
+      "Read(//c/Program Files/Google/Chrome/Application/**)",
+      "Read(//c/Program Files \\(x86\\)/Microsoft/Edge/Application/**)",
+      "Bash(command -v node)",
+      "Bash(\"/c/Program Files/Google/Chrome/Application/chrome.exe\" --headless --disable-gpu --hide-scrollbars --window-size=1200,3400 --screenshot=/tmp/styleguide.png \"http://127.0.0.1:8099/index.html\")",
+      "Bash(ls -la /tmp/styleguide.png)",
+      "Bash(pkill -f \"http.server 8099\")",
+      "Bash(\"/c/Program Files/Google/Chrome/Application/chrome.exe\" --headless --disable-gpu --hide-scrollbars --window-size=1200,3400 --screenshot=/tmp/fix.png \"http://127.0.0.1:8099/index.html\")",
+      "Bash(cp /tmp/fix.png \"C:/Users/LAPTOP WORLD/Desktop/Design System claude/_preview.png\")",
+      "Bash(\"/c/Program Files/Google/Chrome/Application/chrome.exe\" --headless --disable-gpu --hide-scrollbars --window-size=1200,3400 --screenshot=/tmp/fix2.png \"http://127.0.0.1:8099/index.html\")",
+      "Bash(cp /tmp/fix2.png \"C:/Users/LAPTOP WORLD/Desktop/Design System claude/_preview.png\")"
+    ]
+  }
+}
